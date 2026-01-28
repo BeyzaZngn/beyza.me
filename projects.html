@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beyza Zengin - iOS Developer Projects">
+    <title>Projects - Beyza Zengin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">BZ</span>
+            </a>
+            <div class="nav-right">
+                <a href="index.html" class="nav-link" data-en="Home" data-tr="Ana Sayfa">Home</a>
+                <div class="lang-switch" id="langSwitch">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="tr">TR</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title" data-en="Projects" data-tr="Projeler">Projects</h1>
+                <p class="page-subtitle" data-en="A collection of my iOS development work and hackathon projects"
+                    data-tr="iOS geliştirme çalışmalarım ve hackathon projelerim">A collection of my iOS development
+                    work and hackathon projects</p>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="project-card featured">
+                <div class="project-badge" data-en="Featured • App Store" data-tr="Öne Çıkan • App Store">Featured • App
+                    Store</div>
+                <h2 class="project-title">Hairmatic: AI Hair Styler</h2>
+                <p class="project-desc"
+                    data-en="AI-powered hair styling application using advanced machine learning for personalized hairstyle recommendations and virtual try-ons. Published on the App Store."
+                    data-tr="Kişiselleştirilmiş saç stili önerileri ve sanal deneme için gelişmiş makine öğrenimi kullanan yapay zeka destekli saç şekillendirme uygulaması. App Store'da yayınlandı.">
+                    AI-powered hair styling application using advanced machine learning for personalized hairstyle
+                    recommendations and virtual try-ons. Published on the App Store.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Swift</span>
+                    <span class="tech-tag">UIKit</span>
+                    <span class="tech-tag">MVVM</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Gemini AI</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://apps.apple.com/app/hairmatic-ai-hair-styler/id6755653243" target="_blank"
+                        rel="noopener" class="project-btn primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                        </svg>
+                        <span>App Store</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Award-Winning Projects -->
+            <div class="section-header">
+                <h2 class="section-label" data-en="Award-Winning Projects" data-tr="Ödüllü Projeler">Award-Winning
+                    Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-award">🥇 TEKNOFEST</div>
+                    <h3 class="project-title">LearnScope</h3>
+                    <p class="project-desc"
+                        data-en="Camera and computer-integrated biodegradable microscope with remote access capabilities. First place in Education Technologies."
+                        data-tr="Uzaktan erişim özellikli kamera ve bilgisayar entegreli biyobozunur mikroskop. Eğitim Teknolojileri'nde birincilik.">
+                        Camera and computer-integrated biodegradable microscope with remote access capabilities. First
+                        place in Education Technologies.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Qt GUI</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Cloudflare</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-award">🥉 Cube Hackathon</div>
+                    <h3 class="project-title" data-en="Investor-Entrepreneur Platform"
+                        data-tr="Yatırımcı-Girişimci Platformu">Investor-Entrepreneur Platform</h3>
+                    <p class="project-desc"
+                        data-en="Mobile platform connecting investors and entrepreneurs, featuring ML-powered matching algorithms."
+                        data-tr="Yatırımcıları ve girişimcileri buluşturan, makine öğrenimi tabanlı eşleştirme algoritmaları içeren mobil platform.">
+                        Mobile platform connecting investors and entrepreneurs, featuring ML-powered matching
+                        algorithms.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">ML</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-award">🥉 BBT Hackathon</div>
+                    <h3 class="project-title" data-en="Smart Campus" data-tr="Akıllı Kampüs">Smart Campus</h3>
+                    <p class="project-desc"
+                        data-en="Comprehensive campus management iOS application with real-time features and Firebase integration."
+                        data-tr="Gerçek zamanlı özellikler ve Firebase entegrasyonu ile kapsamlı kampüs yönetimi iOS uygulaması.">
+                        Comprehensive campus management iOS application with real-time features and Firebase
+                        integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">MVVM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/BeyzaZngn/BOB-Smart-Campus" target="_blank" rel="noopener"
+                            class="project-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-award">🥉 TEKNOFEST TakeOff</div>
+                    <h3 class="project-title">Careify</h3>
+                    <p class="project-desc"
+                        data-en="Healthcare application focused on healthy living and personal care management."
+                        data-tr="Sağlıklı yaşam ve kişisel bakım yönetimine odaklanan sağlık uygulaması.">
+                        Healthcare application focused on healthy living and personal care management.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Healthcare</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Open Source Projects -->
+            <div class="section-header">
+                <h2 class="section-label" data-en="Open Source" data-tr="Açık Kaynak">Open Source</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Swift CRUD App</h3>
+                    <p class="project-desc"
+                        data-en="Complete user management application demonstrating full CRUD operations with RESTful API integration and custom Node.js backend."
+                        data-tr="RESTful API entegrasyonu ve özel Node.js backend ile tam CRUD işlemlerini gösteren kullanıcı yönetimi uygulaması.">
+                        Complete user management application demonstrating full CRUD operations with RESTful API
+                        integration and custom Node.js backend.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">UIKit</span>
+                        <span class="tech-tag">MVVM</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/BeyzaZngn/SwiftCRUDApp" target="_blank" rel="noopener"
+                            class="project-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Shop Closure Binding App</h3>
+                    <p class="project-desc"
+                        data-en="Product listing application demonstrating modern iOS data binding patterns using closures with RESTful API integration."
+                        data-tr="RESTful API entegrasyonu ile closure kullanarak modern iOS veri bağlama kalıplarını gösteren ürün listeleme uygulaması.">
+                        Product listing application demonstrating modern iOS data binding patterns using closures with
+                        RESTful API integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">UIKit</span>
+                        <span class="tech-tag">MVVM</span>
+                        <span class="tech-tag">URLSession</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/BeyzaZngn/ShopClosureBindingApp" target="_blank" rel="noopener"
+                            class="project-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title" data-en="Sesimi Duyan Var mı?" data-tr="Sesimi Duyan Var mı?">Sesimi Duyan
+                        Var mı?</h3>
+                    <p class="project-desc"
+                        data-en="iOS application with location services and Firebase integration for emergency communication."
+                        data-tr="Acil durum iletişimi için konum servisleri ve Firebase entegrasyonu içeren iOS uygulaması.">
+                        iOS application with location services and Firebase integration for emergency communication.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">MapKit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/aliosmanozturk1/SDVM-iOS" target="_blank" rel="noopener"
+                            class="project-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Home -->
+            <div class="back-home">
+                <a href="index.html" class="back-btn" data-en="← Back to Home" data-tr="← Ana Sayfaya Dön">← Back to
+                    Home</a>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>© 2026 Beyza Zengin</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

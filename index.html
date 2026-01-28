@@ -33,10 +33,13 @@
     <nav class="nav">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
-                <span class="logo-text">BZ</span>
+                <span class="logo-text">Beyza Zengin</span>
             </a>
             <div class="nav-right">
+                <a href="#about" class="nav-link" data-en="About" data-tr="Hakkımda">About</a>
+                <a href="#skills" class="nav-link" data-en="Skills" data-tr="Yetenekler">Skills</a>
                 <a href="projects.html" class="nav-link" data-en="Projects" data-tr="Projeler">Projects</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-tr="İletişim">Contact</a>
                 <div class="lang-switch" id="langSwitch">
                     <button class="lang-btn active" data-lang="en">EN</button>
                     <button class="lang-btn" data-lang="tr">TR</button>
@@ -47,223 +50,289 @@
 
     <!-- Main Content -->
     <main class="main">
-        <div class="container">
-            <!-- Hero Card -->
-            <div class="hero-card">
-                <div class="hero-content">
-                    <div class="hero-badge" data-en="iOS Developer" data-tr="iOS Geliştirici">iOS Developer</div>
-                    <h1 class="hero-title">Beyza Zengin</h1>
-                    <p class="hero-subtitle"
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-intro">
+                        <span class="hello-text">Hello<span class="dot">.</span></span>
+                        <span class="im-text" data-en="I'm" data-tr="Ben">I'm</span>
+                        <h1 class="hero-name">Beyza</h1>
+                    </div>
+                    <h2 class="hero-title" data-en="iOS Developer" data-tr="iOS Geliştirici">iOS Developer</h2>
+                    <p class="hero-desc"
                         data-en="Building user-focused, performant mobile applications with Swift, UIKit, and SwiftUI"
                         data-tr="Swift, UIKit ve SwiftUI ile kullanıcı odaklı, performanslı mobil uygulamalar geliştiriyorum">
                         Building user-focused, performant mobile applications with Swift, UIKit, and SwiftUI
                     </p>
-
-                    <div class="hero-location">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path
-                                d="M8 0C5.243 0 3 2.243 3 5c0 4.5 5 11 5 11s5-6.5 5-11c0-2.757-2.243-5-5-5zm0 7.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
-                        </svg>
-                        <span>Kütahya, Turkey</span>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-en="Get in touch" data-tr="İletişime geç">Get in
+                            touch</a>
+                        <a href="projects.html" class="btn btn-secondary" data-en="My projects" data-tr="Projelerim">My
+                            projects</a>
                     </div>
                 </div>
-
-                <!-- Stats Row -->
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <div class="stat-number">6+</div>
-                        <div class="stat-label" data-en="Awards" data-tr="Ödül">Awards</div>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label" data-en="Projects" data-tr="Proje">Projects</div>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <div class="stat-number">2025</div>
-                        <div class="stat-label" data-en="Graduation" data-tr="Mezuniyet">Graduation</div>
+                <div class="hero-right">
+                    <div class="photo-container">
+                        <div class="photo-ring ring-1"></div>
+                        <div class="photo-ring ring-2"></div>
+                        <div class="photo-ring ring-3"></div>
+                        <img src="profile.png" alt="Beyza Zengin" class="profile-photo">
                     </div>
                 </div>
             </div>
 
-            <!-- About Section -->
-            <div class="content-card">
-                <h2 class="section-title" data-en="About" data-tr="Hakkımda">About</h2>
-                <p class="about-text"
-                    data-en="I'm an iOS developer focused on creating user-centered and performant mobile applications. Working with Swift, UIKit, and SwiftUI, I build clean, readable, and maintainable applications following the MVVM architecture pattern. My business analysis training helps me understand user needs and translate them into effective technical solutions."
-                    data-tr="Kullanıcı odaklı ve performanslı mobil uygulamalar geliştirmeye odaklanan bir iOS geliştiricisiyim. Swift ile UIKit ve SwiftUI kullanarak MVVM mimarisi doğrultusunda sade, okunabilir ve geliştirilebilir uygulamalar üzerinde çalışıyorum. Aldığım iş analistliği eğitimi sayesinde kullanıcı ihtiyaçlarını anlamaya ve bunları doğru teknik çözümlere dönüştürmeye önem veriyorum.">
-                    I'm an iOS developer focused on creating user-centered and performant mobile applications. Working
-                    with Swift, UIKit, and SwiftUI, I build clean, readable, and maintainable applications following the
-                    MVVM architecture pattern. My business analysis training helps me understand user needs and
-                    translate them into effective technical solutions.
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <span class="tech-item">Swift</span>
+                <span class="tech-item">UIKit</span>
+                <span class="tech-item">SwiftUI</span>
+                <span class="tech-item">Firebase</span>
+                <span class="tech-item">MVVM</span>
+                <span class="tech-item">Git</span>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3 class="service-title" data-en="iOS Development" data-tr="iOS Geliştirme">iOS Development</h3>
+                <p class="service-desc" data-en="Native iOS apps with Swift, UIKit, and SwiftUI"
+                    data-tr="Swift, UIKit ve SwiftUI ile native iOS uygulamaları">
+                    Native iOS apps with Swift, UIKit, and SwiftUI
                 </p>
             </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3 class="service-title" data-en="UI/UX Design" data-tr="UI/UX Tasarım">UI/UX Design</h3>
+                <p class="service-desc" data-en="User-centered design with Figma"
+                    data-tr="Figma ile kullanıcı odaklı tasarım">
+                    User-centered design with Figma
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔗</div>
+                <h3 class="service-title" data-en="API Integration" data-tr="API Entegrasyonu">API Integration</h3>
+                <p class="service-desc" data-en="RESTful APIs and backend integration"
+                    data-tr="RESTful API ve backend entegrasyonu">
+                    RESTful APIs and backend integration
+                </p>
+            </div>
+        </section>
 
-            <!-- Skills Section -->
-            <div class="content-card">
-                <h2 class="section-title" data-en="Skills" data-tr="Yetenekler">Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3 class="skill-title" data-en="Mobile Development" data-tr="Mobil Geliştirme">Mobile
-                            Development</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Swift</span>
-                            <span class="skill-tag">UIKit</span>
-                            <span class="skill-tag">SwiftUI</span>
-                            <span class="skill-tag">MVVM</span>
-                            <span class="skill-tag">Flutter</span>
-                        </div>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2 class="section-title" data-en="About me" data-tr="Hakkımda">About me</h2>
+                    <p class="about-text"
+                        data-en="I'm an iOS developer focused on creating user-centered and performant mobile applications. Working with Swift, UIKit, and SwiftUI, I build clean, readable, and maintainable applications following the MVVM architecture pattern. My business analysis training helps me understand user needs and translate them into effective technical solutions."
+                        data-tr="Kullanıcı odaklı ve performanslı mobil uygulamalar geliştirmeye odaklanan bir iOS geliştiricisiyim. Swift ile UIKit ve SwiftUI kullanarak MVVM mimarisi doğrultusunda sade, okunabilir ve geliştirilebilir uygulamalar üzerinde çalışıyorum. Aldığım iş analistliği eğitimi sayesinde kullanıcı ihtiyaçlarını anlamaya ve bunları doğru teknik çözümlere dönüştürmeye önem veriyorum.">
+                        I'm an iOS developer focused on creating user-centered and performant mobile applications.
+                        Working
+                        with Swift, UIKit, and SwiftUI, I build clean, readable, and maintainable applications following
+                        the
+                        MVVM architecture pattern. My business analysis training helps me understand user needs and
+                        translate them into effective technical solutions.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label" data-en="Awards Won" data-tr="Kazanılan Ödül">Awards Won</span>
                     </div>
-                    <div class="skill-category">
-                        <h3 class="skill-title" data-en="Backend & Database" data-tr="Backend & Veritabanı">Backend &
-                            Database</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Firebase</span>
-                            <span class="skill-tag">Supabase</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">REST API</span>
-                        </div>
+                    <div class="stat-box">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label" data-en="Projects" data-tr="Proje">Projects</span>
                     </div>
-                    <div class="skill-category">
-                        <h3 class="skill-title" data-en="Tools" data-tr="Araçlar">Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Git/GitHub</span>
-                            <span class="skill-tag">Xcode</span>
-                            <span class="skill-tag">Figma</span>
-                            <span class="skill-tag">Agile</span>
-                        </div>
+                    <div class="stat-box">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label" data-en="App Store App" data-tr="App Store Uygulaması">App Store
+                            App</span>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Experience Section -->
-            <div class="content-card">
-                <h2 class="section-title" data-en="Experience" data-tr="Deneyim">Experience</h2>
-                <div class="experience-list">
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-company">Çeliker Teknoloji | R&D</div>
-                            <div class="exp-date">Oct 2024 - May 2025</div>
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <h2 class="section-title center" data-en="Skills & Technologies" data-tr="Yetenekler & Teknolojiler">Skills
+                & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 class="skill-category-title" data-en="Mobile Development" data-tr="Mobil Geliştirme">Mobile
+                        Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Swift</span>
+                        <span class="skill-item">UIKit</span>
+                        <span class="skill-item">SwiftUI</span>
+                        <span class="skill-item">MVVM</span>
+                        <span class="skill-item">Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-category-title" data-en="Backend & Database" data-tr="Backend & Veritabanı">Backend
+                        & Database</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">Supabase</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">REST API</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-category-title" data-en="Tools & Others" data-tr="Araçlar & Diğer">Tools & Others
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">Xcode</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
+            <h2 class="section-title center" data-en="Experience" data-tr="Deneyim">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Çeliker Teknoloji | R&D</h3>
+                            <span class="timeline-date">Oct 2024 - May 2025</span>
                         </div>
-                        <div class="exp-role" data-en="Mobile Application Development Intern"
-                            data-tr="Mobil Uygulama Geliştirme Stajyeri">Mobile Application Development Intern</div>
-                        <p class="exp-desc"
+                        <p class="timeline-role" data-en="Mobile Application Development Intern"
+                            data-tr="Mobil Uygulama Geliştirme Stajyeri">
+                            Mobile Application Development Intern
+                        </p>
+                        <p class="timeline-desc"
                             data-en="Developed iOS and Android applications with BLE integration, ESP32 modules, and Node.js backend services."
                             data-tr="BLE entegrasyonu, ESP32 modülleri ve Node.js backend servisleri ile iOS ve Android uygulamaları geliştirdim.">
                             Developed iOS and Android applications with BLE integration, ESP32 modules, and Node.js
-                            backend services.</p>
+                            backend services.
+                        </p>
                     </div>
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-company">Turkcell</div>
-                            <div class="exp-date">Jul 2025 - Sep 2025</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Turkcell</h3>
+                            <span class="timeline-date">Jul 2025 - Sep 2025</span>
                         </div>
-                        <div class="exp-role" data-en="Storage & Backup Management Intern"
-                            data-tr="Storage & Backup Yönetimi Stajyeri">Storage & Backup Management Intern</div>
-                        <p class="exp-desc"
+                        <p class="timeline-role" data-en="Storage & Backup Management Intern"
+                            data-tr="Storage & Backup Yönetimi Stajyeri">
+                            Storage & Backup Management Intern
+                        </p>
+                        <p class="timeline-desc"
                             data-en="Worked with SAN/NAS systems across EMC, Huawei, and Hitachi infrastructure."
-                            data-tr="EMC, Huawei ve Hitachi altyapılarında SAN/NAS sistemleri üzerinde çalıştım.">Worked
-                            with SAN/NAS systems across EMC, Huawei, and Hitachi infrastructure.</p>
-                    </div>
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-company">EduTech</div>
-                            <div class="exp-date">Nov 2025 - Jan 2026</div>
-                        </div>
-                        <div class="exp-role" data-en="Technical Business Analysis Training"
-                            data-tr="Teknik İş Analizi Eğitimi">Technical Business Analysis Training</div>
-                        <p class="exp-desc"
-                            data-en="Completed IIBA-based training in requirements gathering, documentation, and business analysis techniques."
-                            data-tr="IIBA tabanlı gereksinim toplama, dokümantasyon ve iş analizi teknikleri eğitimini tamamladım.">
-                            Completed IIBA-based training in requirements gathering, documentation, and business
-                            analysis techniques.</p>
+                            data-tr="EMC, Huawei ve Hitachi altyapılarında SAN/NAS sistemleri üzerinde çalıştım.">
+                            Worked with SAN/NAS systems across EMC, Huawei, and Hitachi infrastructure.
+                        </p>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Awards Section -->
-            <div class="content-card">
-                <h2 class="section-title" data-en="Awards" data-tr="Başarılar">Awards</h2>
-                <div class="awards-list">
-                    <div class="award-item">
-                        <div class="award-medal">🥇</div>
-                        <div class="award-info">
-                            <div class="award-title">TEKNOFEST</div>
-                            <div class="award-desc" data-en="Education Technologies - LearnScope"
-                                data-tr="Eğitim Teknolojileri - LearnScope">Education Technologies - LearnScope</div>
-                        </div>
-                    </div>
-                    <div class="award-item">
-                        <div class="award-medal">🥈</div>
-                        <div class="award-info">
-                            <div class="award-title" data-en="Commerce Chamber R&D" data-tr="Ticaret Odası Ar-Ge">
-                                Commerce Chamber R&D</div>
-                            <div class="award-desc">LearnScope</div>
-                        </div>
-                    </div>
-                    <div class="award-item">
-                        <div class="award-medal">🥉</div>
-                        <div class="award-info">
-                            <div class="award-title">Cube Hackathon</div>
-                            <div class="award-desc" data-en="Investor-Entrepreneur Platform"
-                                data-tr="Yatırımcı-Girişimci Platformu">Investor-Entrepreneur Platform</div>
-                        </div>
-                    </div>
-                    <div class="award-item">
-                        <div class="award-medal">🥉</div>
-                        <div class="award-info">
-                            <div class="award-title">BBT Hackathon</div>
-                            <div class="award-desc" data-en="Smart Campus iOS App"
-                                data-tr="Akıllı Kampüs iOS Uygulaması">Smart Campus iOS App</div>
-                        </div>
-                    </div>
+        <!-- Awards Section -->
+        <section class="awards-section">
+            <h2 class="section-title center" data-en="Awards & Achievements" data-tr="Ödüller & Başarılar">Awards &
+                Achievements</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon">🥇</div>
+                    <h3 class="award-name">TEKNOFEST</h3>
+                    <p class="award-info" data-en="Education Technologies - LearnScope"
+                        data-tr="Eğitim Teknolojileri - LearnScope">
+                        Education Technologies - LearnScope
+                    </p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">🥈</div>
+                    <h3 class="award-name" data-en="Commerce Chamber R&D" data-tr="Ticaret Odası Ar-Ge">Commerce Chamber
+                        R&D</h3>
+                    <p class="award-info">LearnScope</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">🥉</div>
+                    <h3 class="award-name">Cube Hackathon</h3>
+                    <p class="award-info" data-en="Investor-Entrepreneur Platform"
+                        data-tr="Yatırımcı-Girişimci Platformu">
+                        Investor-Entrepreneur Platform
+                    </p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">🥉</div>
+                    <h3 class="award-name">BBT Hackathon</h3>
+                    <p class="award-info" data-en="Smart Campus iOS App" data-tr="Akıllı Kampüs iOS Uygulaması">
+                        Smart Campus iOS App
+                    </p>
                 </div>
             </div>
+        </section>
 
-            <!-- Contact Section -->
-            <div class="content-card">
-                <h2 class="section-title" data-en="Contact" data-tr="İletişim">Contact</h2>
-                <div class="contact-links">
-                    <a href="mailto:beyzazengin.work@gmail.com" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title center" data-en="Get in Touch" data-tr="İletişime Geç">Get in Touch</h2>
+            <p class="contact-subtitle" data-en="Feel free to reach out for collaborations or just a friendly hello"
+                data-tr="İş birlikleri için veya sadece merhaba demek için iletişime geçebilirsiniz">
+                Feel free to reach out for collaborations or just a friendly hello
+            </p>
+            <div class="contact-links">
+                <a href="mailto:beyzazengin.work@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
                             </path>
                             <polyline points="22,6 12,13 2,6"></polyline>
                         </svg>
-                        <span>beyzazengin.work@gmail.com</span>
-                    </a>
-                    <a href="https://linkedin.com/in/beyzazengin1" target="_blank" rel="noopener" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    </div>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">beyzazengin.work@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/beyzazengin1" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                         </svg>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/BeyzaZngn" target="_blank" rel="noopener" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    </div>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">linkedin.com/in/beyzazengin1</span>
+                </a>
+                <a href="https://github.com/BeyzaZngn" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                         </svg>
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://beyzazengin1.medium.com" target="_blank" rel="noopener" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    </div>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/BeyzaZngn</span>
+                </a>
+                <a href="https://beyzazengin1.medium.com" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
                         </svg>
-                        <span>Medium</span>
-                    </a>
-                </div>
+                    </div>
+                    <span class="contact-label">Medium</span>
+                    <span class="contact-value">beyzazengin1.medium.com</span>
+                </a>
             </div>
+        </section>
 
-            <!-- Footer -->
-            <footer class="footer">
-                <p>© 2026 Beyza Zengin</p>
-            </footer>
-        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Beyza Zengin</p>
+        </footer>
     </main>
 
     <script src="script.js"></script>
